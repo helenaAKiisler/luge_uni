@@ -1,0 +1,20 @@
+body {
+    background-image: url("universum.jpg") ;
+}
+
+h1 {
+    color: #e4d9ff ;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: #1e2749;
+}
+
+.grid-item {
+    color: #fafaff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
