@@ -18,3 +18,14 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
 }
+
+table, th {
+    color: #fafaff;
+    background-color: #1e2749;
+    font-family: 'Courier New', Courier, monospace;
+    width: 50%;
+}
+
+tr {
+    color: #fafaff;
+}
