@@ -7,11 +7,6 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
 }
 
-p {
-    color: #e4d9ff ;
-    font-family: 'Courier New', Courier, monospace; 
-}
-
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
@@ -35,7 +30,7 @@ table, th {
     display: flex;
     color:#e4d9ff;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 26;
+    font-size: 18px;
     gap: 35px;
     margin-bottom: 20px;
 }
