@@ -7,6 +7,11 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
 }
 
+p {
+    color: #e4d9ff ;
+    font-family: 'Courier New', Courier, monospace; 
+}
+
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
