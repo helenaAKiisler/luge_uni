@@ -20,12 +20,17 @@ h1 {
 }
 
 table, th {
-    color: #fafaff;
+    color:#fafaff;
     background-color: #1e2749;
-    font-family: 'Courier New', Courier, monospace;
     width: 50%;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-tr {
-    color: #fafaff;
+.links {
+    display: flex;
+    color:#e4d9ff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 26;
+    gap: 35px;
+    margin-bottom: 20px;
 }
