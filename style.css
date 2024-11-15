@@ -11,12 +11,14 @@ h1 {
     display: grid;
     grid-template-columns: auto auto;
     background-color: #1e2749;
+    margin: 10px
 }
 
 .grid-item {
     color: #fafaff;
     font-family: 'Courier New', Courier, monospace;
     font-size: medium;
+    margin: 7px
 }
 
 table, th {
@@ -33,4 +35,10 @@ table, th {
     font-size: 18px;
     gap: 35px;
     margin-bottom: 20px;
+}
+
+a {
+    color:#e4d9ff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
 }
