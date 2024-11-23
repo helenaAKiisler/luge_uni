@@ -28,17 +28,49 @@ table, th {
     font-family: 'Courier New', Courier, monospace;
 }
 
-.links {
-    display: flex;
+.links a{
     color:#e4d9ff;
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 25px;
     gap: 35px;
     margin-bottom: 20px;
+    float: right;
 }
 
 a {
     color:#e4d9ff;
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
+}
+
+.header {
+    overflow: hidden;
+    padding: 10px 20px;
+    background-color: #1e2749;
+    float: center;
+}
+
+.title {
+    color:#e4d9ff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 12px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 25px;
+    gap: 35px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+.links a:hover {
+    background-color:#273469;
+    color:#fafaff;
 }
