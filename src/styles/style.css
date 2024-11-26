@@ -38,8 +38,8 @@ table, th {
     border-radius: 4px;
     line-height: 25px;
     gap: 35px;
-    margin-bottom: 20px;
     float: right;
+    vertical-align: middle;
 }
 
 a {
@@ -53,6 +53,7 @@ a {
     padding: 10px 20px;
     background-color: #1e2749;
     float: center;
+    display: flex;
 }
 
 .title {
