@@ -36,9 +36,8 @@ table, th {
     text-decoration: none;
     text-align: center;
     border-radius: 4px;
-    line-height: 25px;
+    line-height: 46px;
     gap: 35px;
-    margin-bottom: 20px;
     float: right;
 }
 
@@ -52,21 +51,16 @@ a {
     overflow: hidden;
     padding: 10px 20px;
     background-color: #1e2749;
-    float: center;
+    display: flex;
+    vertical-align: auto;
 }
 
 .title {
     color:#e4d9ff;
     font-family: 'Courier New', Courier, monospace;
-    font-size: 25px;
+    font-size: 30px;
     font-weight: bold;
-    padding: 12px;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 4px;
-    line-height: 25px;
-    gap: 35px;
-    margin-bottom: 20px;
+    border-color: #fafaff;
     vertical-align: middle;
 }
 
