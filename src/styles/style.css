@@ -12,6 +12,7 @@ h1 {
     color: #3100ac ;
     font-family: 'Courier New', Courier, monospace;
     font-size: xx-large;
+  
 }
 
 .links {
@@ -27,15 +28,15 @@ h1 {
     text-decoration: none;
 }
 .link:first-child:hover {
-    background-color: #4D8CD6;
+    background-color: #1c5ca5;
 }
 .link:nth-child(2) {
     position: absolute;
     color: #3100ac;
     text-decoration: none;
 }
-.link:nth-child(2):hover {
-    background-color: #4D8CD6;
+.link:nth-child(2):hover {    
+    background-color: #1c5ca5;
 }
 .žanrid {
     position: relative;
@@ -47,37 +48,19 @@ h1 {
 }
 .tekst1 {
     position: absolute;
-    color:#3100ac;
-    text-decoration: none;
 }
 .tekst2 {
     position: absolute;
 }
 .tekst3 {
     position: absolute;
-    color: #3100ac;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: xx-large;
-    font-weight: bold;
 }
 .tekst4 {
     position: absolute;
-    color: #3100ac;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: xx-large;
-    font-weight: bold;
 }
 .tekst5 {
     position: absolute;
-    color: #3100ac;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: xx-large;
-    font-weight: bold;
 }
 .tekst6 {
     position: absolute;
-    color: #3100ac;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: xx-large;
-    font-weight: bold;
 }
