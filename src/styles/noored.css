@@ -1,32 +1,13 @@
 body {
-    height: 100vh;
-    margin: 0;
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top center;
+    background-image: url("../components/noored_taiskasvanud.jpg") ;
 }
 
 h1 {
-    position: absolute;
-    color: #3100ac ;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: xx-large;
     top: 12%;
     left: 31%;
 }
 
-.links {
-    position: relative;
-    height: 20%;
-    font-weight: bold;
-    font-size: large;
-    font-family: 'Courier New', Courier, monospace;
-}
 .link:first-child {
-    position: absolute;
-    color: #3100ac;
-    text-decoration: none;
     margin-top: 17.8%;
     left: 33%;
 }

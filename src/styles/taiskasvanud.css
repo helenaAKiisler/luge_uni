@@ -1,0 +1,29 @@
+body {
+    background-image: url("../components/noored_taiskasvanud.jpg") ;
+}
+
+h1 {
+    color: #e4d9ff ;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.links a{
+    color:#e4d9ff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 2px;
+    line-height: 20px;
+    padding: 2px;
+    gap: 35px;
+    float: right;
+    margin-top: 17.3%;
+    vertical-align: middle;
+}
+
+a {
+    color:#e4d9ff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
