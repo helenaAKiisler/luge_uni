@@ -27,7 +27,7 @@ h1 {
     text-decoration: none;
 }
 .link:first-child:hover {
-    background-color: #1c5ca5;
+    background-color: #4D8CD6;
 }
 .link:nth-child(2) {
     position: absolute;
@@ -35,7 +35,7 @@ h1 {
     text-decoration: none;
 }
 .link:nth-child(2):hover {
-    background-color: #1c5ca5;
+    background-color: #4D8CD6;
 }
 .žanrid {
     position: relative;
@@ -47,6 +47,8 @@ h1 {
 }
 .tekst1 {
     position: absolute;
+    color:#3100ac;
+    text-decoration: none;
 }
 .tekst2 {
     position: absolute;

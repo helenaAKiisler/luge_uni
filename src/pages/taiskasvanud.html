@@ -17,15 +17,71 @@
         <h1>Täiskasvanute universum</h1>
 
         <div class="žanrid">
-            <p class="tekst1">Romantiline</p>
-            <p class="tekst2">Krimi</p>
+            <div class="tekst1">
+                <a href="#romantiline">Romantiline</a>
+            </div>
+            <div class="tekst2">
+                <a href="#krimi">Krimi</a>
+            </div>
             <p class="tekst3">Ulme</p>
             <p class="tekst4">Tõsielu</p>
             <p class="tekst5">Eneseabi</p>
             <p class="tekst6">Õudus</p>
         </div>
-    </div>
+        <div id="romantiline" class="modal">
+            <div class="content">
+                <h1>Romantiline</h1>
+                <p>raamatusoovitus siin</p>
+                <div class="slider">
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="../components/romantika1.jpg" alt="romantika1"></img>
+                            <p>A. H. Tammsaare "Elu ja armastus"</p>
+                        </div>
+                        <div class="slide">
+                            <img src="../components/romantika2.jpg" alt="romantika2"></img>
+                            <p>Aliis Jõe "Unustamatu Ööbiku villa"</p>
+                        </div>
+                        <div class="slide">
+                            <img src="../components/romantika3.jpg" alt="romantika3"></img>
+                            <p>Loone Ots "Armastus"</p>
+                        </div>
+                    </div>    
+                    <button class="eelmine" onclick="eelmineslide()">&#10094</button>
+                    <button class="jargmine" onclick="jargmineslide()">&#10095</button>
+                </div>
+                <a href="#" class="rist">&times;</a>  
+                <script src="taiskasvanud.js"></script> 
+            </div>
+        </div>
 
+    </div>
+<div id="krimi" class="modal">
+    <div class="content">
+        <h1>Krimikirjandus</h1>
+        <p>raamatusoovitus siin</p>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide">
+                    <img src="../components/krimi1.jpg" alt="krimi1"></img>
+                    <p>vilde</p>
+                </div>
+                <div class="slide">
+                    <img src="../components/krimi2.jpg" alt="krimi2"></img>
+                    <p>osolin</p>
+                </div>
+                <div class="slide">
+                    <img src="../components/krimi3.jpg" alt="krimi3"></img>
+                    <p>kangur</p>
+                </div>
+            </div>    
+            <button class="eelmine" onclick="eelmineslide()">&#10094</button>
+            <button class="jargmine" onclick="jargmineslide()">&#10095</button>
+        </div>
+        <a href="#" class="rist">&times;</a>  
+        <script src="taiskasvanud.js"></script> 
+    </div>
+</div>
 </body>
 
 
