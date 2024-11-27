@@ -3,27 +3,41 @@ body {
 }
 
 h1 {
-    color: #e4d9ff ;
-    font-family: 'Courier New', Courier, monospace;
+    top: 12%;
+    left: 33.2%;
 }
 
-.links a{
-    color:#e4d9ff;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
-    text-decoration: none;
-    text-align: center;
-    border-radius: 2px;
-    line-height: 20px;
-    padding: 2px;
-    gap: 35px;
-    float: right;
-    margin-top: 17.3%;
-    vertical-align: middle;
+.link:first-child {
+    margin-top: 17.8%;
+    left: 33%;
 }
 
-a {
-    color:#e4d9ff;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 18px;
+.link:nth-child(2) {
+    margin-top: 17.8%;
+    right: 32.5%;
+}
+
+.tekst1 {
+    margin-top: 27%;
+    left: 12%;
+}
+.tekst2 {
+    margin-top: 27%;
+    left: 44%;
+}
+.tekst3 {
+    margin-top: 27%;
+    left: 76%;
+}
+.tekst4 {
+    margin-top: 41%;
+    left: 12%;
+}
+.tekst5 {
+    margin-top: 41%;
+    left: 44%;
+}
+.tekst6 {
+    margin-top: 41%;
+    left: 71%;
 }

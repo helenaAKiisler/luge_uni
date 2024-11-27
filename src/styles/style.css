@@ -12,8 +12,6 @@ h1 {
     color: #3100ac ;
     font-family: 'Courier New', Courier, monospace;
     font-size: xx-large;
-    top: 12%;
-    left: 31%;
 }
 
 .links {
@@ -27,8 +25,6 @@ h1 {
     position: absolute;
     color: #3100ac;
     text-decoration: none;
-    margin-top: 17.8%;
-    left: 33%;
 }
 .link:first-child:hover {
     background-color: #1c5ca5;
@@ -37,8 +33,6 @@ h1 {
     position: absolute;
     color: #3100ac;
     text-decoration: none;
-    margin-top: 17.8%;
-    right: 32.5%;
 }
 .link:nth-child(2):hover {
     background-color: #1c5ca5;
@@ -53,13 +47,9 @@ h1 {
 }
 .tekst1 {
     position: absolute;
-    margin-top: 27%;
-    left: 12%;
 }
 .tekst2 {
     position: absolute;
-    margin-top: 27%;
-    left: 44%;
 }
 .tekst3 {
     position: absolute;
@@ -67,8 +57,6 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: xx-large;
     font-weight: bold;
-    margin-top: 27%;
-    left: 76%;
 }
 .tekst4 {
     position: absolute;
@@ -76,8 +64,6 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: xx-large;
     font-weight: bold;
-    margin-top: 41%;
-    left: 12%;
 }
 .tekst5 {
     position: absolute;
@@ -85,8 +71,6 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: xx-large;
     font-weight: bold;
-    margin-top: 41%;
-    left: 44%;
 }
 .tekst6 {
     position: absolute;
@@ -94,6 +78,4 @@ h1 {
     font-family: 'Courier New', Courier, monospace;
     font-size: xx-large;
     font-weight: bold;
-    margin-top: 41%;
-    left: 71%;
 }
