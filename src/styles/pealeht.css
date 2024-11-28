@@ -1,0 +1,66 @@
+body {
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    background-image: url("../components/proov.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+h1 {
+    position: absolute;
+    color: #3100ac ;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
+    top: 12%;
+    left: 36%;
+}
+
+.links {
+    position: relative;
+    height: 20%;
+    font-weight: bold;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+.link:first-child {
+    position: absolute;
+    color: #3100ac;
+    text-decoration: none;
+    margin-top: 16%;
+    left: 65%;
+}
+.link:first-child:hover {
+    background-color: #1c5ca5;
+}
+.link:nth-child(2) {
+    position: absolute;
+    color: #3100ac;
+    text-decoration: none;
+    margin-top: 16%;
+    left: 45.5%;
+}
+.link:nth-child(2):hover {
+    background-color: #1c5ca5;
+}
+.link:nth-child(3) {
+    position: absolute;
+    color: #3100ac;
+    text-decoration: none;
+    margin-top: 16%;
+    left: 27%;
+}
+.link:nth-child(3):hover {
+    background-color: #1c5ca5;
+}
+
+p {
+    position: absolute;
+    color: #3100ac;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    margin-top: 26%;
+    left: 15%;
+}

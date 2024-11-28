@@ -1,0 +1,144 @@
+body {
+    background-image: url("../components/noored_taiskasvanud.jpg") ;
+}
+
+h1 {
+    top: 12%;
+    left: 33.2%;
+}
+
+.link:first-child {
+    margin-top: 17.8%;
+    left: 33%;
+}
+
+.link:nth-child(2) {
+    margin-top: 17.8%;
+    right: 32.5%;
+}
+
+.tekst1 {
+    margin-top: 27%;
+    left: 11%;
+    text-decoration: none;
+}
+.tekst1:hover a{
+    background-color: #1c5ca5;
+    color: #F5F5F5;
+    padding: 1%;
+    border-radius: 7px;    
+    margin-top: 26%;
+    text-decoration: none;
+}
+.tekst1 a {
+    text-decoration: none;
+    color: #3100ac;
+    padding: 2%;
+}
+.tekst2 {
+    margin-top: 27%;
+    left: 45%;
+}
+.tekst2:hover a{
+    background-color: #1c5ca5;
+    color: #F5F5F5;
+    padding: 1%;
+    border-radius: 7px;    
+    margin-top: 26%;
+    text-decoration: none;
+}
+.tekst2 a{
+    text-decoration: none;
+    color: #3100ac;
+    padding: 2%;
+}
+.tekst3 {
+    margin-top: 27%;
+    left: 76%;
+}
+.tekst4 {
+    margin-top: 41%;
+    left: 12%;
+}
+.tekst5 {
+    margin-top: 41%;
+    left: 44%;
+}
+.tekst6 {
+    margin-top: 41%;
+    left: 71%;
+}
+
+
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(126, 156, 254, 0.539);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    position: relative;
+    background: white;
+    padding: 1em 2em;
+    border-radius: 4px;
+}
+
+.content h1 {
+    color:#1c5ca5;
+    position:relative;
+    left: 0%
+}
+.content p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+.modal:target {
+    display: flex;
+}
+.rist{
+    position:absolute;
+    top: 10px;
+    right: 10px;
+    color: #3100ca;
+    font-size: 30px;
+    text-decoration: none;
+}
+.rist:hover{
+    color: #97C7F5;
+}
+.slider .slides{
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slider img{
+    width: 100%;
+    display: none;
+}
+
+img.displaySlide{
+    display: block;
+}
+
+.slider button{
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:#F5F5F5;
+    border:none;
+    cursor: pointer;
+}
+.eelmine{
+    left:0;
+}
+.jargmine{
+    right:0;
+}
