@@ -1,12 +1,17 @@
 //soovituste slaidide koodipõhi:https://youtu.be/749ta0nvj8s?si=HDEuLijWbn9plrot
-const  slides = document.querySelectorAll(".slide img");
-let slideIndex = 0;
 
-//initializeSlider();
-document.addEventListener("DOMContentLoaded", initializeSlider);
 
-function initializeSlider(){
+document.addEventListener("DOMContentLoaded", () => {
+    initializeSlider("romantiline");
+    initializeSlider("krimi");
+});
 
+
+function initializeSlider(modalId){
+    const modal = document.getElementById(modalId);
+    const  slides = modal.querySelectorAll(".slide img");
+    let slideIndex = 0;
+    
     if(slides.length > 0){
         slides[slideIndex].classList.add("displaySlide");
     }
