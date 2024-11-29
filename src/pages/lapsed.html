@@ -2,7 +2,7 @@
 <html lang="et">
 <head>
 <link rel="stylesheet" type="text/css" href="../styles/lapsed.css">
-<link rel="stylesheet" type="text/css" href="../styles/style.css"
+<link rel="stylesheet" type="text/css" href="../styles/style.css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lugemise universum</title>
@@ -18,14 +18,239 @@
         <h1>Laste universum</h1>
 
         <div class="žanrid">
-            <p class="tekst1">Fantaasia</p>
-            <p class="tekst2">Seiklus</p>
-            <p class="tekst3">Ulme</p>
-            <p class="tekst4">Müsteerium</p>
-            <p class="tekst5">Unejutud</p>
-            <p class="tekst6">Muinasjutud</p>
+            <div class="tekst1">
+                <a href="#loomalood">Loomalood</a>
+            </div>
+            <div class="tekst2">
+                <a href="#seikluslood">Seikluslood</a>
+            </div>
+            <div class="tekst3">
+                <a href="#müsteeriumid">Müsteeriumid</a>
+            </div>
+            <div class="tekst4">
+                <a href="#õpetlikud-lood">Õpetlikud lood</a>
+            </div>
+            <div class="tekst5">
+                <a href="#unejutud">Unejutud</a>
+            </div>
+            <div class="tekst6">
+                <a href="#fantaasia">Fantaasia</a>
+            </div>
+        </div>
+<!--baas popup akende jaoks: https://www.geeksforgeeks.org/how-to-create-popup-box-using-html-and-css/-->
+        <div id="loomalood" class="modal">
+            <div class="content">
+                <div class="slider">
+                    <h1>Loomalood</h1>
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="../components/laste_loomalood1.jpg" alt="loomalood1">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_loomalood2.jpg" alt="loomalood2">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_loomalood3.jpg" alt="loomalood3">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_loomalood4.jpg" alt="loomalood4">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_loomalood5.jpg" alt="loomalood5">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_loomalood6.jpg" alt="loomalood6">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_loomalood7.jpg" alt="loomalood7">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_loomalood8.jpg" alt="loomalood8">
+                        </div>
+                    </div>    
+                    <button class="eelmine" onclick="eelmineslide()">&#10094;</button>
+                    <button class="jargmine" onclick="jargmineslide()">&#10095;</button>
+                </div>
+                <a href="#" class="rist">&times;</a>  
+            </div>
+        </div>
+
+        <div id="seikluslood" class="modal">
+            <div class="content">
+                <div class="slider">
+                    <h1>Seikluslood</h1>
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="../components/laste_seiklus1.jpg" alt="seiklus1">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_seiklus2.jpg" alt="seiklus2">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_seiklus3.jpg" alt="seiklus3">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_seiklus4.jpg" alt="seiklus4">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_seiklus5.jpg" alt="seiklus5">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_seiklus6.jpg" alt="seiklus6">
+                        </div>
+                    </div>    
+                    <button class="eelmine" onclick="eelmineslide()">&#10094;</button>
+                    <button class="jargmine" onclick="jargmineslide()">&#10095;</button>
+                </div>
+                <a href="#" class="rist">&times;</a>  
+            </div>
+        </div>
+
+        <div id="müsteeriumid" class="modal">
+            <div class="content">
+                <div class="slider">
+                    <h1>Müsteeriumid</h1>
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="../components/laste_müsteerium1.jpg" alt="müsteerium1">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_müsteerium2.jpg" alt="müsteerium2">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_müsteerium3.jpg" alt="müsteerium3">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_müsteerium4.jpg" alt="müsteerium4">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_müsteerium5.jpg" alt="müsteerium5">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_müsteerium6.jpg" alt="müsteerium6">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_müsteerium7.jpg" alt="müsteerium7">
+                        </div>
+                    </div>    
+                    <button class="eelmine" onclick="eelmineslide()">&#10094;</button>
+                    <button class="jargmine" onclick="jargmineslide()">&#10095;</button>
+                </div>
+                <a href="#" class="rist">&times;</a>  
+            </div>
+        </div>
+
+        <div id="õpetlikud-lood" class="modal">
+            <div class="content">
+                <div class="slider">
+                    <h1>Õpetlikud lood</h1>
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="../components/laste_õpetlikud1.jpg" alt="õpetlikud1">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_õpetlikud2.jpg" alt="õpetlikud2">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_õpetlikud3.jpg" alt="õpetlikud3">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_õpetlikud4.jpg" alt="õpetlikud4">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_õpetlikud5.jpg" alt="õpetlikud5">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_õpetlikud6.jpg" alt="õpetlikud6">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_õpetlikud7.jpg" alt="õpetlikud7">
+                        </div>
+                    </div>    
+                    <button class="eelmine" onclick="eelmineslide()">&#10094;</button>
+                    <button class="jargmine" onclick="jargmineslide()">&#10095;</button>
+                </div>
+                <a href="#" class="rist">&times;</a>  
+            </div>
+        </div>
+
+        <div id="unejutud" class="modal">
+            <div class="content">
+                <div class="slider">
+                    <h1>Unejutud</h1>
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="../components/laste_unejutud1.jpg" alt="unejutud1">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_unejutud2.jpg" alt="unejutud2">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_unejutud3.jpg" alt="unejutud3">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_unejutud4.jpg" alt="unejutud4">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_unejutud5.jpg" alt="unejutud5">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_unejutud6.jpg" alt="unejutud6">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_unejutud7.jpg" alt="unejutud7">
+                        </div>
+                    </div>    
+                    <button class="eelmine" onclick="eelmineslide()">&#10094;</button>
+                    <button class="jargmine" onclick="jargmineslide()">&#10095;</button>
+                </div>
+                <a href="#" class="rist">&times;</a>  
+            </div>
+        </div>
+
+        <div id="fantaasia" class="modal">
+            <div class="content">
+                <div class="slider">
+                    <h1>Fantaasia</h1>
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="../components/laste_fantaasia1.jpg" alt="fantaasia1">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_fantaasia2.jpg" alt="fantaasia2">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_fantaasia3.jpg" alt="fantaasia3">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_fantaasia4.jpg" alt="fantaasia4">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_fantaasia5.jpg" alt="fantaasia5">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_fantaasia6.jpg" alt="fantaasia6">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_fantaasia7.jpg" alt="fantaasia7">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_fantaasia8.jpg" alt="fantaasia8">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_fantaasia9.jpg" alt="fantaasia9">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/laste_fantaasia10.jpg" alt="fantaasia10">
+                        </div>
+                    </div>    
+                    <button class="eelmine" onclick="eelmineslide()">&#10094;</button>
+                    <button class="jargmine" onclick="jargmineslide()">&#10095;</button>
+                </div>
+                <a href="#" class="rist">&times;</a>  
+            </div>
         </div>
     </div>
-
+<script src="lapsed.js"></script> 
 </body>
 </html>
