@@ -1,55 +1,235 @@
 <!DOCTYPE html>
 <html lang="et">
 <head>
+<link rel="stylesheet" type="text/css" href="../styles/noored.css">
 <link rel="stylesheet" type="text/css" href="../styles/style.css">
 <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Lugemise universum</title>
-    
 </head>
-<body>
-<h1>Lugemise universum: Noored</h1>
-<p>Oled juba välja mõelnud, mis poosis plaanid oma lugemise seiklusi ettevõtta? Kui mitte, siis ole mureta, äkki see link on abiks.</p>
-<p></p>
-<a href="https://bookriot.com/five-reading-positions-ranked/#:~:text=The%20Five%20Reading%20Positions%2C%20Ranked%201%201.%20Sitting,Prone%20%E2%80%93%20Only%20When%20You%20Have%20To%20">Lehekülg erinevatest lugemispoosidest</a>
-<p></p>
-<p>Tunned, et sattusid kogemata vale vanuseklassi juurde? Ära põe, klõpsa järgnevatele linkidele ja leia lihtsasti endale sobiv raamat</p>
-<table>
-    <tr>
-        <th>Täiskasvanute raamatud</th>
-        <th>Lasteraamatud</th>
-    </tr>
-</table>
 
-<p>Heida pilk järgnevatele žanri valikutele kui tunned, et pole siiani otsustanud, mida lugeda soovid</p>
-<div class="grid-container">
-    <div class="grid-item">
-        <h3>Romantika</h3>
-        <p></p>
+<body>
+    <div class="content-container">
+        <div class="links">
+            <a href="lapsed.html" class="link">Lastele</a>
+            <a href="taiskasvanud.html" class="link">Täiskasvanutele</a>
+        </div>
+
+        <h1>Noorte universum</h1>
+
+        <div class="žanrid">
+            <div class="tekst1">
+                <a href="#romantika">Romantika</a>
+            </div>
+            <div class="tekst2">
+                <a href="#krimi">Krimi</a>
+            </div>
+            <div class="tekst3">
+                <a href="#fantaasia">Fantaasia</a>
+            </div>
+            <div class="tekst4">
+                <a href="#draama">Draama</a>
+            </div>
+            <div class="tekst5">
+                <a href="#õudus">Õudus</a>
+            </div>
+            <div class="tekst6">
+                <a href="#põnevik">Põnevik</a>
+            </div>
+        </div>
+<!--baas popup akende jaoks: https://www.geeksforgeeks.org/how-to-create-popup-box-using-html-and-css/-->
+        <div id="romantika" class="modal">
+            <div class="content">
+                <div class="slider">
+                    <h1>Romantika</h1>
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="../components/noortepildid/romantika1.png" alt="romantika1">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/romantika2.png" alt="romantika2">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/romantika3.png" alt="romantika3">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/romantika4.png" alt="romantika4">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/romantika5.png" alt="romantika5">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/romantika6.png" alt="romantika6">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/romantika7.png" alt="romantika7">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/romantika8.png" alt="romantika8">
+                        </div>
+                    </div>    
+                    <button class="eelmine" onclick="eelmineslide()">&#10094;</button>
+                    <button class="jargmine" onclick="jargmineslide()">&#10095;</button>
+                </div>
+                <a href="#" class="rist">&times;</a>  
+            </div>
+        </div>
+
+        <div id="krimi" class="modal">
+            <div class="content">
+                <div class="slider">
+                    <h1>Krimi</h1>
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="../components/noortepildid/krimi1.png" alt="krimi1">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/krimi2.png" alt="krimi2">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/krimi3.png" alt="krimi3">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/krimi4.png" alt="krimi4">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/krimi5.png" alt="krimi5">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/krimi6.png" alt="krimi6">
+                        </div>
+                    </div>    
+                    <button class="eelmine" onclick="eelmineslide()">&#10094;</button>
+                    <button class="jargmine" onclick="jargmineslide()">&#10095;</button>
+                </div>
+                <a href="#" class="rist">&times;</a>  
+            </div>
+        </div>
+
+        <div id="fantaasia" class="modal">
+            <div class="content">
+                <div class="slider">
+                    <h1>Fantaasia</h1>
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="../components/noortepildid/fantaasia1.png" alt="fantaasia1">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/fantaasia2.jpg" alt="fantaasia2">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/fantaasia3.jpg" alt="fantaasia3">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/fantaasia4.jpg" alt="fantaasia4">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/fantaasia5.jpg" alt="fantaasia5">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/fantaasia6.jpg" alt="fantaasia6">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/fantaasia7.jpg" alt="fantaasia7">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/fantaasia8.jpg" alt="fantaasia8">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/fantaasia9.jpg" alt="fantaasia9">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/fantaasia10.jpg" alt="fantaasia10">
+                        </div>
+                    </div>    
+                    <button class="eelmine" onclick="eelmineslide()">&#10094;</button>
+                    <button class="jargmine" onclick="jargmineslide()">&#10095;</button>
+                </div>
+                <a href="#" class="rist">&times;</a>  
+            </div>
+        </div>
+
+        <div id="draama" class="modal">
+            <div class="content">
+                <div class="slider">
+                    <h1>Draama</h1>
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="../components/noortepildid/draama1.jpg" alt="draama1">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/draama2.jpg" alt="draama2">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/draama3.jpg" alt="draama3">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/draama4.jpg" alt="draama4">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/draama5.jpg" alt="draama5">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/draama6.jpg" alt="draama6">
+                        </div>
+                    </div>    
+                    <button class="eelmine" onclick="eelmineslide()">&#10094;</button>
+                    <button class="jargmine" onclick="jargmineslide()">&#10095;</button>
+                </div>
+                <a href="#" class="rist">&times;</a>  
+            </div>
+        </div>
+
+        <div id="õudus" class="modal">
+            <div class="content">
+                <div class="slider">
+                    <h1>Õudus</h1>
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="../components/noortepildid/oudus1.jpg" alt="oudus1">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/oudus2.jpg" alt="oudus2">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/oudus3.jpg" alt="oudus3">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/oudus4.jpg" alt="oudus4">
+                        </div>
+                    </div>    
+                    <button class="eelmine" onclick="eelmineslide()">&#10094;</button>
+                    <button class="jargmine" onclick="jargmineslide()">&#10095;</button>
+                </div>
+                <a href="#" class="rist">&times;</a>  
+            </div>
+        </div>
+
+        <div id="põnevik" class="modal">
+            <div class="content">
+                <div class="slider">
+                    <h1>Põnevik</h1>
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="../components/noortepildid/ponevik1.jpg" alt="ponevik1">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/ponevik2.jpg" alt="ponevik2">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/ponevik3.jpg" alt="ponevik3">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/noortepildid/ponevik4.jpg" alt="ponevik4">
+                        </div>
+                    </div>    
+                    <button class="eelmine" onclick="eelmineslide()">&#10094;</button>
+                    <button class="jargmine" onclick="jargmineslide()">&#10095;</button>
+                </div>
+                <a href="#" class="rist">&times;</a>  
+            </div>
+        </div>
     </div>
-    <div class="grid-item">
-        <h3>Sci-fi</h3>
-        <p></p>
-    </div>
-    <div class="grid-item">
-        <h3>Krimi</h3>
-        <p></p>
-    </div>
-    <div class="grid-item">
-        <h3>Fantaasia</h3>
-        <p></p>
-    </div>
-    <div class="grid-item">
-        <h3>Draama</h3>
-        <p></p>
-    </div>
-    <div class="grid-item">
-        <h3>Õudus</h3>
-        <p></p>
-    </div>
-    <div class="grid-item">
-        <h3>Graafilised Novellid</h3>
-        <p></p>
-    </div>
-</div>
+<script src="noored.js"></script>
 </body>
 </html>
