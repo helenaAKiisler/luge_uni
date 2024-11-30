@@ -123,10 +123,10 @@ h1 {
 
 
 .modal {
+    display: none;
     position: fixed;
     inset: 0;
     background: rgba(126, 156, 254, 0.539);
-    display: none;
     width: 400px;
     margin-left: 35%;
     align-items: center;
@@ -167,6 +167,7 @@ h1 {
 .slider .slides{
     position: relative;
     width: 400px;
+    height: 550px;
     height: auto;
     margin: auto;
     overflow: hidden;
