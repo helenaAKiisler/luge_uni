@@ -1,3 +1,6 @@
+// javascripti tegemisel oli abiks video https://youtu.be/749ta0nvj8s?si=HDEuLijWbn9plrot ning lisaks aitas
+// seda täiustada, et see sobiks meie ideega chatgpt.
+
 document.addEventListener("DOMContentLoaded", function() {
     const modalIds = ['loomalood', 'seikluslood', 'müsteeriumid', 'õpetlikud-lood', 'unejutud', 'fantaasia'];
     
