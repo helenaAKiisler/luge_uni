@@ -18,7 +18,7 @@ h1 {
 }
 
 .tekst1 {
-    margin-top: 27%;
+    margin-top: 23%;
     left: 11%;
     text-decoration: none;
 }
@@ -27,7 +27,7 @@ h1 {
     color: #F5F5F5;
     padding: 1%;
     border-radius: 7px;    
-    margin-top: 26%;
+    margin-top: 22%;
     text-decoration: none;
 }
 .tekst1 a {
@@ -36,7 +36,7 @@ h1 {
     padding: 2%;
 }
 .tekst2 {
-    margin-top: 27%;
+    margin-top: 23%;
     left: 45%;
 }
 .tekst2:hover a{
@@ -44,7 +44,7 @@ h1 {
     color: #F5F5F5;
     padding: 1%;
     border-radius: 7px;    
-    margin-top: 26%;
+    margin-top: 22%;
     text-decoration: none;
 }
 .tekst2 a{
@@ -53,7 +53,7 @@ h1 {
     padding: 2%;
 }
 .tekst3 {
-    margin-top: 27%;
+    margin-top: 23%;
     left: 76%;
 }
 .tekst3:hover a{
@@ -61,7 +61,7 @@ h1 {
     color: #F5F5F5;
     padding: 1%;
     border-radius: 7px;    
-    margin-top: 26%;
+    margin-top: 22%;
     text-decoration: none;
 }
 .tekst3 a{
@@ -70,7 +70,7 @@ h1 {
     padding: 2%;
 }
 .tekst4 {
-    margin-top: 41%;
+    margin-top: 37%;
     left: 14%;
 }
 .tekst4:hover a{
@@ -87,7 +87,7 @@ h1 {
     padding: 2%;
 }
 .tekst5 {
-    margin-top: 41%;
+    margin-top: 37%;
     left: 44%;
 }
 .tekst5:hover a{
@@ -104,7 +104,7 @@ h1 {
     padding: 2%;
 }
 .tekst6 {
-    margin-top: 41%;
+    margin-top: 37%;
     left: 76%;
 }
 .tekst6:hover a{
@@ -126,8 +126,8 @@ h1 {
     display: none;
     position: fixed;
     inset: 0;
-    background: rgba(126, 156, 254, 0.539);
     width: 400px;
+    height: fit-content;
     margin-left: 35%;
     align-items: center;
     justify-content: center;

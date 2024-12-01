@@ -1,7 +1,7 @@
 //soovituste slaidide koodipõhi:https://youtu.be/749ta0nvj8s?si=HDEuLijWbn9plrot
 
 document.addEventListener("DOMContentLoaded", function() {
-    const modalIds = ['romantiline', 'krimi', 'ulme', 'tosielu', 'eneseabi', 'oudus'];
+    const modalIds = ['romantiline', 'krimi', 'ulme', 'elulugu', 'eneseabi', 'oudus'];
     
     modalIds.forEach(modalId => {
         let modal = document.getElementById(modalId);

@@ -15,6 +15,23 @@ h1 {
   
 }
 
+.kodu {
+    position: relative;
+    top: 7%;
+    left: 49%;
+    background-color: #1c5ca56a;
+    border-width: 0;
+    border-radius: 2px;
+    color: #97C7F5;
+    font-size: large;
+    height: 50px;
+    width: 50px;
+}
+.kodu:hover {
+    background-color: #184d8a6a;
+    cursor: pointer;
+}
+
 .links {
     position: relative;
     height: 20%;
