@@ -3,18 +3,23 @@
 <head>
 <link rel="stylesheet" type="text/css" href="../styles/taiskasvanud.css">
 <link rel="stylesheet" type="text/css" href="../styles/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 <meta charset="UTF-8">
 <title>Lugemise universum</title>
 
 </head>
 
 <body>
+    
     <div class="content-container">
         <div class="links">
             <a href="lapsed.html" class="link">Lastele</a>
             <a href="noored.html" class="link">Noortele</a>
         </div>
-
+        <a href="pealeht.html" class="kodu">
+            <i class="fa-solid fa-rocket"></i>
+        </a>
+        
         <h1>Täiskasvanute universum</h1>
 
         <div class="žanrid">
@@ -24,33 +29,44 @@
             <div class="tekst2">
                 <a href="#krimi">Krimi</a>
             </div>
-            <p class="tekst3">Ulme</p>
-            <p class="tekst4">Tõsielu</p>
-            <p class="tekst5">Eneseabi</p>
-            <p class="tekst6">Õudus</p>
+            <div class="tekst3">
+                <a href="#ulme">Ulme</a>
+            </div>
+            <div class="tekst4">
+                <a href="#elulugu">Elulooline</a>
+            </div>
+            <div class="tekst5">
+                <a href="#eneseabi">Eneseabi</a>
+            </div>
+            <div class="tekst6">
+                <a href="#oudus">Õudus</a>
+            </div>
         </div>
 <!--baas popup akende jaoks: https://www.geeksforgeeks.org/how-to-create-popup-box-using-html-and-css/-->
         <div id="romantiline" class="modal">
             <div class="content">
                 <h1>Romantiline</h1>
-                <p>raamatusoovitus siin</p>
+                <p>Sügavad tunded ja liigutavad lood:</p>
                 <div class="slider">
                     <div class="slides">
                         <div class="slide">
-                            <img src="../components/romantika1.jpg" alt="romantika1"></img>
-                            <p>A. H. Tammsaare "Elu ja armastus"</p>
+                            <img src="../components/taiskasvanud/romantika1.jpg" alt="romantika1">
                         </div>
                         <div class="slide">
-                            <img src="../components/romantika2.jpg" alt="romantika2"></img>
-                            <p>Aliis Jõe "Unustamatu Ööbiku villa"</p>
+                            <img src="../components/taiskasvanud/romantika2.jpg" alt="romantika2">
                         </div>
                         <div class="slide">
-                            <img src="../components/romantika3.jpg" alt="romantika3"></img>
-                            <p>Loone Ots "Armastus"</p>
+                            <img src="../components/taiskasvanud/romantika3.jpg" alt="romantika3">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/romantika4.jpg" alt="romantika4">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/romantika5.jpg" alt="romantika5">
                         </div>
                     </div>    
-                    <button class="eelmine" onclick="eelmineslide()">&#10094</button>
-                    <button class="jargmine" onclick="jargmineslide()">&#10095</button>
+                    <button class="eelmine" onclick="eelmineslide()">&#10094;</button>
+                    <button class="jargmine" onclick="jargmineslide()">&#10095;</button>
                 </div>
                 <a href="#" class="rist">&times;</a>
             </div>
@@ -58,29 +74,146 @@
         <div id="krimi" class="modal">
             <div class="content">
                 <h1>Krimikirjandus</h1>
-                <p>raamatusoovitus siin</p>
+                <p>Tipptasemel detektiivid ja kriminaalselt põnevad juhtumid:</p>
                 <div class="slider">
                     <div class="slides">
                         <div class="slide">
-                            <img src="../components/krimi1.jpg" alt="krimi1"></img>
-                            <p>vilde</p>
+                            <img src="../components/taiskasvanud/krimi1.jpg" alt="krimi1">
                         </div>
                         <div class="slide">
-                            <img src="../components/krimi2.jpg" alt="krimi2"></img>
-                            <p>osolin</p>
+                            <img src="../components/taiskasvanud/krimi2.jpg" alt="krimi2">
                         </div>
                         <div class="slide">
-                            <img src="../components/krimi3.jpg" alt="krimi3"></img>
-                            <p>kangur</p>
+                            <img src="../components/taiskasvanud/krimi3.jpg" alt="krimi3">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/krimi4.jpg" alt="krimi4">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/krimi5.jpg" alt="krimi5">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/krimi6.jpg" alt="krimi6">
                         </div>
                     </div>    
-                    <button class="eelmine" onclick="eelmineslide()">&#10094</button>
-                    <button class="jargmine" onclick="jargmineslide()">&#10095</button>
+                    <button class="eelmine" onclick="eelmineslide()">&#10094;</button>
+                    <button class="jargmine" onclick="jargmineslide()">&#10095;</button>
                 </div>
                 <a href="#" class="rist">&times;</a> 
             </div>
         </div>
-
+        <div id="ulme" class="modal">
+            <div class="content">
+                <h1>Ulmekirjandus</h1>
+                <p>Neid raamatuid lugedes ei usu oma silmi:</p>
+                <div class="slider">
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/ulme1.jpeg" alt="ulme1">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/ulme2.jpg" alt="ulme2">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/ulme3.jpg" alt="ulme3">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/ulme4.jpg" alt="ulme4">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/ulme5.jpg" alt="ulme5">
+                        </div>
+                    </div>    
+                    <button class="eelmine" onclick="eelmineslide()">&#10094;</button>
+                    <button class="jargmine" onclick="jargmineslide()">&#10095;</button>
+                </div>
+                <a href="#" class="rist">&times;</a> 
+            </div>
+        </div>
+        <div id="elulugu" class="modal">
+            <div class="content">
+                <h1>Elulooline</h1>
+                <p>Inspireerivaid lugusid elust enesest:</p>
+                <div class="slider">
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/elulugu1.jpg" alt="elulugu1">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/elulugu2.jpg" alt="elulugu2">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/elulugu3.jpg" alt="elulugu3">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/elulugu4.jpg" alt="elulugu4">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/elulugu5.jpg" alt="elulugu5">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/elulugu6.jpg" alt="elulugu6">
+                        </div>
+                    </div>    
+                    <button class="eelmine" onclick="eelmineslide()">&#10094;</button>
+                    <button class="jargmine" onclick="jargmineslide()">&#10095;</button>
+                </div>
+                <a href="#" class="rist">&times;</a> 
+            </div>
+        </div>
+        <div id="eneseabi" class="modal">
+            <div class="content">
+                <h1>Eneseabiraamatud</h1>
+                <p>Lugedes iseenda parimaks versiooniks:</p>
+                <div class="slider">
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/eneseabi1.jpg" alt="eneseabi1">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/eneseabi2.jpg" alt="eneseabi2">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/eneseabi3.jpg" alt="eneseabi3">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/eneseabi4.jpg" alt="eneseabi4">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/eneseabi5.jpg" alt="eneseabi5">
+                        </div>
+                    </div>    
+                    <button class="eelmine" onclick="eelmineslide()">&#10094;</button>
+                    <button class="jargmine" onclick="jargmineslide()">&#10095;</button>
+                </div>
+                <a href="#" class="rist">&times;</a> 
+            </div>
+        </div>
+        <div id="oudus" class="modal">
+            <div class="content">
+                <h1>Õuduskirjandus</h1>
+                <p>Ettevaatust! Võib tekitada hirmujudinaid:</p>
+                <div class="slider">
+                    <div class="slides">
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/oudus1.jpg" alt="oudus1">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/oudus2.jpg" alt="oudus2">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/oudus3.jpg" alt="oudus3">
+                        </div>
+                        <div class="slide">
+                            <img src="../components/taiskasvanud/oudus4.jpeg" alt="oudus4">
+                        </div>
+                    </div>    
+                    <button class="eelmine" onclick="eelmineslide()">&#10094;</button>
+                    <button class="jargmine" onclick="jargmineslide()">&#10095;</button>
+                </div>
+                <a href="#" class="rist">&times;</a> 
+            </div>
+        </div>
     </div>
 <script src="taiskasvanud.js"></script>
 </body>

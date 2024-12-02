@@ -15,6 +15,23 @@ h1 {
   
 }
 
+.kodu {
+    position: relative;
+    top: 7%;
+    left: 49%;
+    background-color: #1c5ca56a;
+    border-width: 0;
+    border-radius: 2px;
+    color: #97C7F5;
+    font-size: 255%;
+    height: 50px;
+    width: 50px;
+}
+.kodu:hover {
+    background-color: #184d8a6a;
+    cursor: pointer;
+}
+
 .links {
     position: relative;
     height: 20%;
@@ -49,18 +66,164 @@ h1 {
 .tekst1 {
     position: absolute;
 }
+.tekst1:hover a{
+    background-color: #1c5ca5;
+    color: #F5F5F5;
+    padding: 1%;
+    border-radius: 7px;    
+    text-decoration: none;
+}
+.tekst1 a{
+    text-decoration: none;
+    color: #3100ac;
+    padding: 2%;
+}
 .tekst2 {
     position: absolute;
+}
+.tekst2:hover a{
+    background-color: #1c5ca5;
+    color: #F5F5F5;
+    padding: 1%;
+    border-radius: 7px;    
+    text-decoration: none;
+}
+.tekst2 a{
+    text-decoration: none;
+    color: #3100ac;
+    padding: 2%;
 }
 .tekst3 {
     position: absolute;
 }
+.tekst3:hover a{
+    background-color: #1c5ca5;
+    color: #F5F5F5;
+    padding: 1%;
+    border-radius: 7px;    
+    text-decoration: none;
+}
+.tekst3 a{
+    text-decoration: none;
+    color: #3100ac;
+    padding: 2%;
+}
 .tekst4 {
     position: absolute;
+}
+.tekst4:hover a{
+    background-color: #1c5ca5;
+    color: #F5F5F5;
+    padding: 1%;
+    border-radius: 7px;    
+    text-decoration: none;
+}
+.tekst4 a{
+    text-decoration: none;
+    color: #3100ac;
+    padding: 2%;
 }
 .tekst5 {
     position: absolute;
 }
+.tekst5:hover a{
+    background-color: #1c5ca5;
+    color: #F5F5F5;
+    padding: 1%;
+    border-radius: 7px;    
+    text-decoration: none;
+}
+.tekst5 a{
+    text-decoration: none;
+    color: #3100ac;
+    padding: 2%;
+}
 .tekst6 {
     position: absolute;
+}
+.tekst6:hover a{
+    background-color: #1c5ca5;
+    color: #F5F5F5;
+    padding: 1%;
+    border-radius: 7px;    
+    text-decoration: none;
+}
+.tekst6 a{
+    text-decoration: none;
+    color: #3100ac;
+    padding: 2%;
+}
+
+.modal {
+    position: fixed;
+    inset: 0;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: fit-content;
+    margin-left: 35%;
+}
+
+.content {
+    position: relative;
+    background: white;
+    padding: 1em 2em;
+    align-items: center;
+    border-radius: 4px;
+}
+.content h1 {
+    color:#1c5ca5;
+    position:relative;
+}
+
+.modal:target {
+    display: flex;
+}
+.rist{
+    position:absolute;
+    top: 10px;
+    right: 10px;
+    color: #3100ca;
+    font-size: 30px;
+    text-decoration: none;
+}
+.rist:hover{
+    color: #97C7F5;
+}
+
+.slider .slides{
+    position: relative;
+    width: 400px;
+    margin: auto;
+    overflow: hidden;
+    align-content: center;
+}
+.slider img{
+    width: 75%;
+    display: none;
+    height: auto;
+    margin-left: 5%;
+}
+
+img.displaySlide{
+    display: block;
+}
+
+.slider button{
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 25px;
+    padding: 10px 15px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:#F5F5F5;
+    border:none;
+    cursor: pointer;
+}
+.eelmine{
+    left:0;
+}
+.jargmine{
+    right:0;
 }
